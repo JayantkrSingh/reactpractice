@@ -1,0 +1,89 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.navigation {
+  width: 25%;
+  border-right: 1px solid #D4D7DC;
+  padding: 10px;
+}
+
+.item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item.selected {
+  background-color: #D4D7DC;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #D4D7DC;
+  padding: 10px;
+}
+
+
+
+
+
+/* ---- Task 1 CSS START ---- */
+.App {
+  font-family: Arial, sans-serif;
+  width: 300px;
+}
+
+.folder-list, .subfolder-list, .table-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.folder, .database, .table {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.folder:hover, .database:hover, .table:hover {
+  background-color: #E0EDFF;
+}
+
+.icon {
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.chevron-right {
+  transform: rotate(0deg);
+}
+
+.chevron-down {
+  transform: rotate(90deg);
+}
+
+.subfolder-list {
+  padding-left: 20px;
+}
+
+.folder-name, .db-name {
+  margin-left: 8px;
+}
+
+/* -----END----- */
